@@ -1,0 +1,7 @@
+# We´re going to block some parts of the website.
+# We follow the guidelines of https://developers.google.com/search/reference/robots_txt
+
+ User-agent: *
+Disallow: /check-ticket/*
+ 
+allow: /
